@@ -1,9 +1,9 @@
 {
-  "name": "bigspring-light-nextjs",
-  "description": "a nextjs and tailwindcss SAAS starter template",
+  "name": "GROWSTUDIO",
+  "description": "GROWSTUDIO",
   "version": "1.0.0",
   "private": true,
-  "license": "MIT",
+  "license": "",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
