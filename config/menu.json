@@ -1,7 +1,7 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Accueil",
       "url": "/"
     },
     {
@@ -9,7 +9,7 @@
       "url": "/blogs"
     },
     {
-      "name": "Pricing",
+      "name": "Tarification",
       "url": "/pricing"
     },
     {
@@ -23,48 +23,48 @@
   ],
   "footer": [
     {
-      "name": "Company",
+      "name": "Entreprise",
       "menu": [
         {
-          "text": "Pricing",
+          "text": "Tarification",
           "url": "/pricing"
         },
         {
-          "text": "Quick Start",
+          "text": "Démarrage rapide",
           "url": "#"
         }
       ]
     },
     {
-      "name": "Product",
+      "name": "Produit",
       "menu": [
         {
-          "text": "Features",
+          "text": "Fonctionnalités",
           "url": "#"
         },
         {
-          "text": "Platform",
+          "text": "Plateforme",
           "url": "#"
         },
         {
-          "text": "Pricing",
+          "text": "Tarification",
           "url": "/pricing"
         }
       ]
     },
     {
-      "name": "Support",
+      "name": "Assistance",
       "menu": [
         {
           "text": "FAQ",
           "url": "/faq"
         },
         {
-          "text": "Privacy Policy",
+          "text": "Politique de confidentialité",
           "url": "#"
         },
         {
-          "text": "Terms & Conditions",
+          "text": "Conditions générales d'utilisation",
           "url": "#"
         }
       ]
