@@ -1,12 +1,12 @@
 ---
-title: "Contact Us"
+title: "Contacter nous"
 layout: "contact"
 draft: false
 info: 
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: Besoin de nous contacter ?
+  description:Chez GrowDigital, nous sommes toujours ravis de discuter de vos projets et de vos objectifs en matière de marketing digital. Que vous cherchiez à améliorer votre présence en ligne, à augmenter vos ventes ou à renforcer votre marque, nous sommes là pour vous aider à réussir.
   contacts: 
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "phone: +212 687-301564"
+    - "Mail: [growstudio.ma@gmail.com](mailto:growstudio.ma@gmail.com)"
+    - "Address: Casablanca, Maroc"
 ---
