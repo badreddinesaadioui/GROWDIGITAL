@@ -1,5 +1,5 @@
 ---
-title: Les avantages du référencement local pour les entreprises de proximité
+title: "Les avantages du référencement local pour les entreprises de proximité"
 description: ""
 image: "/images/blog-3.jpg"
 date: 2023-05-02T06:00:00+00:00
