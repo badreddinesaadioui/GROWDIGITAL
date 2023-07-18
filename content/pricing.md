@@ -16,10 +16,11 @@ plans:
     link: "/contact"
 
 
-  title: Pack Excellence Digitale
+- title: Pack Excellence Digitale
   subtitle: À partir de 1499 DH
   price: 1499
   type: service
+  recommended: true
   features:
     - Conception et développement de site web
     - Optimisation pour les moteurs de recherche
@@ -29,7 +30,6 @@ plans:
     - Design posters, brochures et carte visite
     - Brand identity design
     - Conception merchandise personnels
-
   button:
     label: Commander
     link: "/contact"
@@ -39,7 +39,6 @@ plans:
   subtitle: À partir de de 999 DH
   price: 999
   type: service
-  recommended: true
   features:
     - Conception et Développement de site web
     - référencement Google Maps (SEO)
@@ -51,7 +50,7 @@ plans:
 
 call_to_action:
   title: Besoin d'un plan sur mesure ?
-  content: "Chez GROWSTUDIO, nous comprenons que chaque entreprise a des besoins uniques en matière de marketing digital. Si vous recherchez des services spécifiques qui ne sont pas inclus dans nos offres standard, nous sommes là pour créer un plan sur mesure qui répondra parfaitement à vos exigences.Contactez-nous dès aujourd'hui pour discuter de vos besoins et obtenir un devis personnalisé pour votre entreprise."
+  content: "Nous comprenons que chaque entreprise a des besoins uniques en matière de marketing digital. Contactez-nous dès aujourd'hui pour discuter de vos besoins et obtenir un devis personnalisé pour votre entreprise."
   image: '/images/cta.svg'
   button:
     enable: true
