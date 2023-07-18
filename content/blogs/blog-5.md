@@ -1,7 +1,7 @@
 ---
 title: "L'importance de l'analyse de données dans le marketing digital"
 description: ""
-image: "/images/blog-4.jpg"
+image: "/images/blog-5.jpg"
 date: 2023-01-04T05:00:00Z
 draft: false
 ---
