@@ -8,9 +8,9 @@ plans:
   price: 599
   type: service
   features:
-    - Conception et Développement de site web
-    - Intégration de fonctionnalités avancées
-    - Support technique post-livraison
+    - - Conception et Développement de site web
+    - - Intégration de fonctionnalités avancées
+    - - Support technique post-livraison
   button:
     label: Commander
     link: "/contact"
@@ -21,14 +21,14 @@ plans:
   type: service
   recommended: true
   features:
-    - Conception et développement de site web
-    - Optimisation pour les moteurs de recherche
-    - référencement Google Maps (SEO) 
-    - Suivi des performances
-    - Page Instagram et Facebook professionnelle
-    - Design posters, brochures et carte visite
-    - Brand identity design
-    - Conception merchandise personnels
+    - - Conception et développement de site web
+    - - Optimisation pour les moteurs de recherche
+    - - référencement Google Maps (SEO) 
+    - - Suivi des performances
+    - - Page Instagram et Facebook professionnelle
+    - - Design posters, brochures et carte visite
+    - - Brand identity design
+    - - Conception merchandise personnels
   button:
     label: Commander
     link: "/contact"
@@ -38,10 +38,10 @@ plans:
   price: 999
   type: service
   features:
-    - Conception et Développement de site web
-    - référencement Google Maps (SEO)
-    - Optimisation pour les moteurs de recherche
-    - Suivi des performances et Support technique
+    - - Conception et Développement de site web
+    - - référencement Google Maps (SEO)
+    - - Optimisation pour les moteurs de recherche
+    - - Suivi des performances et Support technique
   button:
     label: Commander
     link: "/contact"
