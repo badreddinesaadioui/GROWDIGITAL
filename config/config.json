@@ -2,13 +2,12 @@
   "site": {
     "title": "GROWSTUDIO",
     "base_url": "/",
-    "favicon":"/images/favicon.png",
+    "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "48",
     "logo_text": "GROWSTUDIO"
-  }
-}
+  },
 
   "settings": {
     "pagination": 4,
@@ -26,12 +25,12 @@
     "contact_form_action": "",
     "tag_manager_id": "",
     "footer_content": "Faites propulser votre entreprise vers de nouveaux sommets",
-    "copyright": "Growstudio 2023 - Tous droits réservés"
+    "copyright": "GROWSTUDIO 2023 - Tous droits réservés"
   },
 
   "metadata": {
-    "meta_author": "Growstudio",
+    "meta_author": "GROWSTUDIO",
     "meta_image": "",
-    "meta_description": "Growstudio"
+    "meta_description": "GROWSTUDIO"
   }
 }
