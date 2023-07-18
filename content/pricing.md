@@ -15,7 +15,6 @@ plans:
     label: Commander
     link: "/contact"
 
-
 - title: Pack Excellence Digitale
   subtitle: À partir de 1499 DH
   price: 1499
@@ -34,9 +33,8 @@ plans:
     label: Commander
     link: "/contact"
 
-
-  - title: Pack Website & SEO
-  subtitle: À partir de de 999 DH
+- title: Pack Website & SEO   # Removed the extra indentation here
+  subtitle: À partir de 999 DH
   price: 999
   type: service
   features:
@@ -55,6 +53,5 @@ call_to_action:
   button:
     enable: true
     label: "Contactez-nous"
-    link: "/contact"
-    
+    link: "/contact"  
 --- 
