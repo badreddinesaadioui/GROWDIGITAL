@@ -1,6 +1,7 @@
 ---
 title: Comment utiliser efficacement les réseaux sociaux pour promouvoir votre entreprise
-description: ""
+description: "Découvrez les meilleures pratiques pour tirer pleinement parti des réseaux sociaux et booster la visibilité de votre entreprise ! Apprenez à utiliser Instagram, Facebook, Twitter et bien plus encore pour atteindre vos objectifs de marketing et interagir avec votre public cible de manière efficace."
+image: "/images/blog-2.jpg"
 image: "/images/blog-2.jpg"
 date: 2023-06-04T05:00:00Z
 draft: false
