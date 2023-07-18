@@ -13,7 +13,7 @@ function Pricing({ data }) {
           <div className="section row -mt-10 justify-center md:mt-0">
             {plans.map((plan, index) => (
               <div
-                className={`col-12 md:col-4 DH{
+                className={`col-12 md:col-4 ${
                   !plan.recommended ? "lg:px-0" : "col-recommended"
                 }`}
                 key={plan.title + index}
@@ -21,8 +21,8 @@ function Pricing({ data }) {
                 <div className="card text-center">
                   <h4>{plan.title}</h4>
                   <div className="mt-5">
-                    <span className="text-5xl text-dark">DH{plan.price}</span>
                     <span>/ {plan.type}</span>
+                    <span className="text-5xl text-dark">{plan.price}DH</span>
                   </div>
                   <h5 className="mt-2 font-normal text-text">
                     {plan.subtitle}
@@ -35,7 +35,7 @@ function Pricing({ data }) {
                     ))}
                   </ul>
                   <Link
-                    className={`btn mt-5 DH{
+                    className={`btn mt-5 ${
                       plan.recommended ? "btn-primary" : "btn-outline-primary"
                     }`}
                     href={plan.button.link}
