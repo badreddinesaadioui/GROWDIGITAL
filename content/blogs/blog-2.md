@@ -2,7 +2,6 @@
 title: "Comment utiliser efficacement les réseaux sociaux pour promouvoir votre entreprise"
 description: ""
 image: "/images/blog-2.jpg"
-image: "/images/blog-2.jpg"
 date: 2023-06-04T05:00:00Z
 draft: false
 ---
