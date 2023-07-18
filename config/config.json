@@ -2,11 +2,7 @@
   "site": {
     "title": "Bigspring Light Nextjs",
     "base_url": "/",
-    "favicon": {
-      "url": "/images/favicon.png",
-      "width": "32",
-      "height": "32"
-    },
+    "favicon":"/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "48",
