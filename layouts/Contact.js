@@ -1,10 +1,48 @@
+import React from "react";
 import config from "@config/config.json";
 import { markdownify } from "@lib/utils/textConverter";
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;
   const { title, info } = frontmatter;
-  const { contact_form_action } = config.params;
+
+  const submitForm = async (event) => {
+    event.preventDefault();
+
+    // Get the form data
+    const form = event.target;
+    const formData = new FormData(form);
+
+    // Convert the form data to an object
+    const data = {};
+    formData.forEach((value, key) => {
+      data[key] = value;
+    });
+
+    // Submit the form data to Google Forms
+    try {
+      const googleFormsUrl =
+        "https://docs.google.com/forms/d/e/1FAIpQLSezAk6OMlBJc3YLedKkXe5dZ1BQHvKqinAG1Rdrf-MiMOmryQ/formResponse";
+      await fetch(googleFormsUrl, {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: new URLSearchParams(data).toString(),
+      });
+
+      // Optional: Show a success message to the user
+      alert("Form submitted successfully!");
+
+      // Clear the form fields
+      form.reset();
+    } catch (error) {
+      console.error("Error submitting the form:", error);
+      // Optional: Show an error message to the user
+      alert("An error occurred while submitting the form.");
+    }
+  };
 
   return (
     <section className="section">
@@ -14,8 +52,7 @@ const Contact = ({ data }) => {
           <div className="col-12 md:col-6 lg:col-7">
             <form
               className="contact-form"
-              method="POST"
-              action={contact_form_action}
+              onSubmit={submitForm}
             >
               <div className="mb-3">
                 <input
@@ -47,6 +84,7 @@ const Contact = ({ data }) => {
               <div className="mb-3">
                 <textarea
                   className="form-textarea w-full rounded-md"
+                  name="message"
                   rows="7"
                   placeholder="Your message"
                 />
