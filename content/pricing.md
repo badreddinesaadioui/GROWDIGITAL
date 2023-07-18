@@ -4,9 +4,9 @@ layout: pricing
 draft: false
 plans:
 - title: Pack Website
-  subtitle: À partir de 599 DH
+  subtitle: Site Web
   price: 599
-  type: service
+  type: À partir
   features:
     - - Conception et Développement de site web
     - - Intégration de fonctionnalités avancées
@@ -16,9 +16,9 @@ plans:
     link: "/contact"
 
 - title: Pack Excellence Digitale
-  subtitle: À partir de 1499 DH
+  subtitle: Marketing Complet
   price: 1499
-  type: service
+  type: À partir
   recommended: true
   features:
     - - Conception et développement de site web
@@ -34,9 +34,9 @@ plans:
     link: "/contact"
 
 - title: Pack Website & SEO   # Removed the extra indentation here
-  subtitle: À partir de 999 DH
+  subtitle: Site Web + Référencement
   price: 999
-  type: service
+  type: À partir
   features:
     - - Conception et Développement de site web
     - - référencement Google Maps (SEO)
