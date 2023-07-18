@@ -1,5 +1,5 @@
 ---
-title: Stratégies de marketing de contenu : Comment créer du contenu engageant pour votre entreprise
+title: "Stratégies de marketing de contenu : Comment créer du contenu engageant pour votre entreprise"
 description: ""
 image: "/images/blog-4.jpg"
 date: 2023-03-04T05:00:00Z
