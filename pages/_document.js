@@ -9,7 +9,7 @@ class MyDocument extends Document {
           <link
             rel="shortcut icon"
             type="image/svg+xml" // Update the type to "image/svg+xml" for SVG favicon
-            href="/banana.svg" // Make sure to provide the correct path to the banana.svg file
+            href="public/images/banana.svg" // Make sure to provide the correct path to the banana.svg file
           />
           {/* theme meta */}
           <meta name="theme-name" content="next-boilerplate" />
