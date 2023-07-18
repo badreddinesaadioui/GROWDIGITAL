@@ -3,54 +3,55 @@ title: Tarification
 layout: pricing
 draft: false
 plans:
-- title: Développement de site web
-  subtitle: A partir de 599 DH
+- title: Pack Website
+  subtitle: À partir de 599 DH
   price: 599
   type: purchase
   features:
-    - Conception et développement de site web personnalisé
+    - Conception et Développement de site web
     - Intégration de fonctionnalités avancées
     - Support technique post-livraison
   button:
     label: Commander
     link: "/contact"
 
-- title: Développement de site web et référencement
-  subtitle: A partir de 999 DH
-  price: 999
+
+- title: Pack Excellence Digitale
+  subtitle: À partir de 1499 DH
+  price: 1499
   type: purchase
-  recommended: true
   features:
-    - Développement de site web avec référencement intégré
+    - Conception et développement de site web
     - Optimisation pour les moteurs de recherche
-    - Suivi des performances et rapports d'analyse
+    - référencement Google Maps (SEO) 
+    - Suivi des performances
+    - Page Instagram et Facebook professionnelle
+    - Design posters, brochures et carte visite
+    - Brand identity design
+    - Conception merchandise personnels
+
   button:
     label: Commander
     link: "/contact"
 
-- title: Marketing Digital Complet
-  subtitle: A partir de 1499 DH
-  price: 1499
-  type: purchase
-  features:
-    - Conception et développement de site web personnalisé
-    - Optimisation pour les moteurs de recherche et référencement intégré
-    - Suivi des performances et rapports d'analyse
-    - Page Instagram professionnelle avec gestion de contenu
-    - Page Facebook professionnelle avec gestion de contenu
-    - Référencement du site web pour une meilleure visibilité sur Google Maps
-    - Conception de cartes de visite, posters et flyers
-    - Vectorisation du logo pour une meilleure qualité
-    - Stratégie de branding pour renforcer votre image de marque
-    - Merchandising pour promouvoir votre marque
 
+  - title: Pack Website & SEO
+  subtitle: À partir de de 999 DH
+  price: 999
+  type: purchase
+  recommended: true
+  features:
+    - Conception et Développement de site web
+    - référencement Google Maps (SEO)
+    - Optimisation pour les moteurs de recherche
+    - Suivi des performances et Support technique
   button:
     label: Commander
     link: "/contact"
 
 call_to_action:
   title: Besoin d'un plan sur mesure ?
-  content: "Chez GROWSTUDIO, nous comprenons que chaque entreprise a des besoins uniques en matière de marketing digital. Si vous recherchez des services spécifiques qui ne sont pas inclus dans nos offres standard, nous sommes là pour créer un plan sur mesure qui répondra parfaitement à vos exigences. Que vous ayez besoin d'une stratégie de marketing complète ou de services spécifiques tels que la création de contenu, la gestion de campagnes publicitaires ou la refonte de votre identité visuelle, notre équipe d'experts est prête à travailler avec vous pour réaliser vos objectifs. Contactez-nous dès aujourd'hui pour discuter de vos besoins et obtenir un devis personnalisé pour votre entreprise."
+  content: "Chez GROWSTUDIO, nous comprenons que chaque entreprise a des besoins uniques en matière de marketing digital. Si vous recherchez des services spécifiques qui ne sont pas inclus dans nos offres standard, nous sommes là pour créer un plan sur mesure qui répondra parfaitement à vos exigences.Contactez-nous dès aujourd'hui pour discuter de vos besoins et obtenir un devis personnalisé pour votre entreprise."
   image: '/images/cta.svg'
   button:
     enable: true
