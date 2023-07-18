@@ -2,12 +2,17 @@
   "site": {
     "title": "Bigspring Light Nextjs",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
+    "favicon": {
+      "url": "/images/favicon.png",
+      "width": "32",
+      "height": "32"
+    },
     "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "48",
     "logo_text": "Bigspring Light"
-  },
+  }
+}
 
   "settings": {
     "pagination": 4,
