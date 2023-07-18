@@ -23,7 +23,7 @@
   ],
   "footer": [
     {
-      "name": "Entreprise",
+      "name": "Nos services",
       "menu": [
         {
           "text": "Tarification",
@@ -36,19 +36,19 @@
       ]
     },
     {
-      "name": "Produit",
+      "name": "Contact",
       "menu": [
         {
-          "text": "Fonctionnalités",
-          "url": "#"
+          "text": "+212 687-301564",
+          "url": "tel:+212687301564"
+        },
+        {
+          "text": "Mail",
+          "url": "mailto:growstudio.ma@gmail.com"
         },
         {
           "text": "Plateforme",
           "url": "#"
-        },
-        {
-          "text": "Tarification",
-          "url": "/pricing"
         }
       ]
     },
@@ -61,11 +61,11 @@
         },
         {
           "text": "Politique de confidentialité",
-          "url": "#"
+          "url": "/faq"
         },
         {
-          "text": "Conditions générales d'utilisation",
-          "url": "#"
+          "text": "Conditions générales",
+          "url": "/faq"
         }
       ]
     }
