@@ -6,7 +6,7 @@ plans:
 - title: Pack Website
   subtitle: À partir de 599 DH
   price: 599
-  type: purchase
+  type: service
   features:
     - Conception et Développement de site web
     - Intégration de fonctionnalités avancées
@@ -16,10 +16,10 @@ plans:
     link: "/contact"
 
 
-- title: Pack Excellence Digitale
+  title: Pack Excellence Digitale
   subtitle: À partir de 1499 DH
   price: 1499
-  type: purchase
+  type: service
   features:
     - Conception et développement de site web
     - Optimisation pour les moteurs de recherche
@@ -38,7 +38,7 @@ plans:
   - title: Pack Website & SEO
   subtitle: À partir de de 999 DH
   price: 999
-  type: purchase
+  type: service
   recommended: true
   features:
     - Conception et Développement de site web
