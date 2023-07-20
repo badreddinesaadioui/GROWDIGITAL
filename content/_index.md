@@ -46,7 +46,7 @@ services:
   - title: "Optimisation pour les moteurs de recherche (SEO)"
     content: "Améliorez la visibilité de votre site web sur les moteurs de recherche et augmentez votre trafic organique grâce à notre expertise en référencement. Nous optimisons votre site pour les mots-clés pertinents et mettons en place des stratégies efficaces pour vous aider à vous démarquer de la concurrence."
     images: 
-      - "/images/service-slide-1.png"
+      - "/images/service-slide-4.png"
     button:
       enable: true
       label: Découvrez nos services
@@ -55,9 +55,9 @@ services:
   - title: "Marketing digital"
     content: "Notre équipe de spécialistes du marketing digital vous aide à développer votre présence en ligne et à attirer plus de clients. Nous mettons en place des stratégies de marketing adaptées à votre secteur d'activité, en utilisant les meilleures pratiques pour optimiser votre présence sur les réseaux sociaux, les moteurs de recherche et d'autres canaux en ligne."
     images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
+      - "/images/service-slide-5.png"
+      - "/images/service-slide-6.png"
+      - "/images/service-slide-7.png"
     button:
       enable: true
       label: Parlons de votre projet
