@@ -35,8 +35,8 @@ services:
   - title: "Conception et développement web"
     content: "Nous créons des sites web attrayants, modernes et conviviaux qui captivent votre audience et renforcent votre présence en ligne. Notre équipe utilise les dernières technologies et les meilleures pratiques pour vous offrir une solution web sur mesure qui répond à vos besoins spécifiques."
     images:
-      - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
+      - "/images/service-slide-1.png"
       - "/images/service-slide-3.png"
     button:
       enable: true
