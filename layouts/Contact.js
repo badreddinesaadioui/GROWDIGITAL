@@ -1,47 +1,45 @@
-import React from "react";
 import config from "@config/config.json";
 import { markdownify } from "@lib/utils/textConverter";
+import Email from "https://smtpjs.com/v3/smtp.js"; // Import the SMTP.js library
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;
   const { title, info } = frontmatter;
+  const { contact_form_action } = config.params;
 
-  const submitForm = async (event) => {
+  const handleFormSubmit = (event) => {
     event.preventDefault();
 
-    // Get the form data
-    const form = event.target;
-    const formData = new FormData(form);
+    // Get form data
+    const formData = new FormData(event.target);
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const subject = formData.get("subject");
+    const message = formData.get("message");
 
-    // Convert the form data to an object
-    const data = {};
-    formData.forEach((value, key) => {
-      data[key] = value;
+    // Prepare the email content with input elements' values
+    const emailContent = `
+      Name: ${name}
+      Email: ${email}
+      Subject: ${subject}
+      Message: ${message}
+    `;
+
+    // Send email using SMTP.js
+    Email.send({
+      Host: "smtp.elasticemail.com", // SMTP server host (replace with your server)
+      Username: "your_smtp_username", // Your SMTP username
+      Password: "your_smtp_password", // Your SMTP password or API key
+      To: "recipient@example.com", // Recipient's email address (replace with the actual recipient)
+      From: email, // Sender's email address (using the entered email as the "From" address)
+      Subject: "Contact Form Submission", // Email subject
+      Body: emailContent, // Email body
+    }).then((message) => {
+      alert("Email sent successfully!"); // Show a success message
+    }).catch((error) => {
+      alert("Failed to send email. Please try again later."); // Show an error message
+      console.error(error);
     });
-
-    // Submit the form data to Google Forms
-    try {
-      const googleFormsUrl =
-        "https://docs.google.com/forms/d/e/1FAIpQLSezAk6OMlBJc3YLedKkXe5dZ1BQHvKqinAG1Rdrf-MiMOmryQ/formResponse";
-      await fetch(googleFormsUrl, {
-        method: "POST",
-        mode: "no-cors",
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-        },
-        body: new URLSearchParams(data).toString(),
-      });
-
-      // Optional: Show a success message to the user
-      alert("Form submitted successfully!");
-
-      // Clear the form fields
-      form.reset();
-    } catch (error) {
-      console.error("Error submitting the form:", error);
-      // Optional: Show an error message to the user
-      alert("An error occurred while submitting the form.");
-    }
   };
 
   return (
@@ -52,7 +50,9 @@ const Contact = ({ data }) => {
           <div className="col-12 md:col-6 lg:col-7">
             <form
               className="contact-form"
-              onSubmit={submitForm}
+              method="POST"
+              action={contact_form_action}
+              onSubmit={handleFormSubmit} // Call the handleFormSubmit function on form submission
             >
               <div className="mb-3">
                 <input
@@ -84,8 +84,8 @@ const Contact = ({ data }) => {
               <div className="mb-3">
                 <textarea
                   className="form-textarea w-full rounded-md"
-                  name="message"
                   rows="7"
+                  name="message" // Added the "name" attribute for the textarea
                   placeholder="Your message"
                 />
               </div>
@@ -112,3 +112,4 @@ const Contact = ({ data }) => {
 };
 
 export default Contact;
+
