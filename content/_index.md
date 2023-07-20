@@ -66,9 +66,9 @@ services:
   - title: "Brand identity et design graphique"
     content: "Nous vous aidons à créer une identité visuelle unique et à transmettre efficacement votre message à travers des designs attrayants. De la création de votre logo à la conception de supports marketing tels que les bannières, les cartes de visite et les brochures, nous vous offrons des solutions créatives et percutantes."
     images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
+      - "/images/service-slide-8.png"
+      - "/images/service-slide-9.png"
+      - "/images/service-slide-10.png"
     button:
       enable: true
       label: Voir nos réalisations
