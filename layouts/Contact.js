@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <section className="section">
       <div className="container">
-        {markdownify("Contact Us", "h1", "text-center font-normal")}
+        {markdownify("Contacter nous", "h1", "text-center font-normal")}
         <div className="section row pb-0">
           <div className="col-12 md:col-6 lg:col-7">
             <form
@@ -25,7 +25,7 @@ export default function Contact() {
                   name="firstname"
                   id="firstname"
                   type="text"
-                  placeholder="Name"
+                  placeholder="Nom"
                   required
                 />
               </div>
@@ -35,7 +35,7 @@ export default function Contact() {
                   name="email"
                   id="youremail"
                   type="email"
-                  placeholder="Your email"
+                  placeholder="Votre adresse e-mail"
                   required
                 />
               </div>
@@ -44,7 +44,7 @@ export default function Contact() {
                   className="form-input w-full rounded"
                   name="subject"
                   type="text"
-                  placeholder="Subject"
+                  placeholder="Sujet"
                   required
                 />
               </div>
@@ -54,25 +54,33 @@ export default function Contact() {
                   name="message"
                   id="yourmessage"
                   rows="7"
-                  placeholder="Your message"
+                  placeholder="Votre message"
                 />
               </div>
               <button type="submit" className="btn btn-primary">
-                Send Now
+                Envoyer maintenant
               </button>
             </form>
           </div>
           <div className="content col-12 md:col-6 lg:col-5">
-            {markdownify("Contact Information", "h4")}
-            {markdownify("Some description about the contact details.", "p", "mt-4")}
+            {markdownify("Besoin de nous contacter ?", "h4")}
+            {markdownify(
+              "Chez GrowDigital, nous sommes toujours ravis de discuter de vos projets et de vos objectifs en matière de marketing digital. Que vous cherchiez à améliorer votre présence en ligne, à augmenter vos ventes ou à renforcer votre marque, nous sommes là pour vous aider à réussir.",
+              "p",
+              "mt-4"
+            )}
             <ul className="contact-list mt-5">
               <li>
-                {markdownify("Contact 1: contact@example.com", "strong", "text-dark")}
+                {markdownify("Téléphone : +212 6 87 30 15 64", "strong", "text-dark")}
               </li>
               <li>
-                {markdownify("Contact 2: +1 (123) 456-7890", "strong", "text-dark")}
+                {markdownify(
+                  "Email : [growstudio.ma@gmail.com](mailto:growstudio.ma@gmail.com)",
+                  "strong",
+                  "text-dark"
+                )}
               </li>
-              {/* Add more contact details here */}
+              <li>{markdownify("Adresse : Casablanca, Maroc", "strong", "text-dark")}</li>
             </ul>
           </div>
         </div>
@@ -80,4 +88,3 @@ export default function Contact() {
     </section>
   );
 }
-
