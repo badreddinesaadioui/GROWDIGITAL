@@ -5,8 +5,8 @@ draft: false
 plans:
 - title: Pack Website
   subtitle: Site Web
-  price: 599
-  type: À partir
+  price:
+  type: 
   features:
     - - Conception et Développement de site web
     - - Intégration de fonctionnalités avancées
@@ -17,8 +17,8 @@ plans:
 
 - title: Pack Excellence Digitale
   subtitle: Marketing Complet
-  price: 1499
-  type: À partir
+  price:
+  type: 
   recommended: true
   features:
     - - Conception et développement de site web
@@ -35,8 +35,8 @@ plans:
 
 - title: Pack Website & SEO   # Removed the extra indentation here
   subtitle: Site Web + Référencement
-  price: 999
-  type: À partir
+  price:
+  type: 
   features:
     - - Conception et Développement de site web
     - - référencement Google Maps (SEO)
