@@ -1,5 +1,5 @@
 ---
-title: Tarification
+title: Nos packs
 layout: pricing
 draft: false
 plans:
