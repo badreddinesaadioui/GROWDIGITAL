@@ -20,9 +20,9 @@ function Pricing({ data }) {
               >
                 <div className="card text-center">
                   <h4>{plan.title}</h4>
-                  <div className="mt-5">
+                  <div className="$mt-5">
                     <span>{plan.type} </span>
-                    <span className="text-5xl text-dark">{plan.price}DH</span>
+                    <span className="text-5xl text-dark">{plan.price}</span>
                   </div>
                   <h5 className="mt-2 font-normal text-text">
                     {plan.subtitle}
