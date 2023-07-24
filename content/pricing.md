@@ -4,7 +4,7 @@ layout: pricing
 draft: false
 plans:
 - title: Pack Website
-  subtitle: Site Web
+  subtitle: 
   price:
   type: 
   features:
@@ -16,7 +16,7 @@ plans:
     link: "/contact"
 
 - title: Pack Excellence Digitale
-  subtitle: Marketing Complet
+  subtitle: 
   price:
   type: 
   recommended: true
@@ -34,7 +34,7 @@ plans:
     link: "/contact"
 
 - title: Pack Website & SEO   # Removed the extra indentation here
-  subtitle: Site Web + Référencement
+  subtitle:
   price:
   type: 
   features:
