@@ -24,6 +24,31 @@ class MyDocument extends Document {
             media="(prefers-color-scheme: dark)"
             content="#000"
           />
+          {/* SEO meta */}
+          <meta
+            name="description"
+            content="Agence de marketing digital à Casablanca, Maroc, offrant des services de développement de site web, design de merchandise, brochure, poster, logo, Google Maps boosting, SEO et ranking sur Google Maps."
+          />
+          <meta
+            name="keywords"
+            content="agence marketing digital, Casablanca, Maroc, développement site web, design merchandise, brochure, poster, logo, Google Maps, SEO, ranking Google Maps"
+          />
+          <meta
+            name="geo.region"
+            content="MA-CAS" // Use the ISO code for Casablanca, Morocco. "MA" for Morocco and "CAS" for Casablanca.
+          />
+          <meta
+            name="geo.placename"
+            content="Casablanca, Morocco" // Replace with the actual city and country information.
+          />
+          <meta
+            name="geo.position"
+            content="latitude;longitude" // Replace with the actual latitude and longitude coordinates of Casablanca.
+          />
+          <meta
+            name="ICBM"
+            content="latitude, longitude" // Replace with the actual latitude and longitude coordinates of Casablanca.
+          />
         </Head>
         <body>
           <Main />
@@ -36,3 +61,4 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
+
